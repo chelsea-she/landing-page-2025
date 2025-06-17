@@ -11,6 +11,7 @@ export default function ExperienceCard() {
       ],
       date: "June 2025 - Present",
       image: "/landing-page-2025/assets/cis.png",
+      tempImage: "/assets/cis.png",
     },
     {
       position: "Software Developer",
@@ -21,6 +22,7 @@ export default function ExperienceCard() {
       ],
       date: "Feb 2025 - Present",
       image: "/landing-page-2025/assets/dti.png",
+      tempImage: "/assets/dti.png",
     },
     {
       position: "Developer Fellow",
@@ -30,6 +32,7 @@ export default function ExperienceCard() {
       ],
       date: "Jun 2024 - Aug 2024",
       image: "/landing-page-2025/assets/headstarter.jpeg",
+      tempImage: "/assets/headstarter.jpeg",
     },
     {
       position: "Research Assistant",
@@ -40,6 +43,7 @@ export default function ExperienceCard() {
       ],
       date: "Jun 2023 - Present",
       image: "/landing-page-2025/assets/emory.png",
+      tempImage: "/assets/emory.png",
     },
     {
       position: "Lead Instructor",
@@ -53,6 +57,7 @@ export default function ExperienceCard() {
       ],
       date: "Oct 2021- May 2024",
       image: "/landing-page-2025/assets/code-ninjas.png",
+      tempImage: "/assets/code-ninjas.png",
     },
   ];
   return (
@@ -62,9 +67,9 @@ export default function ExperienceCard() {
           key={index}
           className="flex flex-col lg:flex-row justify-between items-center py-6 lg:py-12 px-2 sm:px-4 lg:px-8 lg:gap-8 bg-white dark:bg-black shadow-md dark:shadow-custom-gray w-[90%] lg:w-[55%] rounded-lg"
         >
-          <div className="lg:w-72 lg:p-2">
+          <div className="w-24 py-4 lg:w-72 lg:p-2">
             <img
-              src={experience.image}
+              src={experience.tempImage}
               alt="Rectangle image with diagonal offset"
               width={80}
               height={80}

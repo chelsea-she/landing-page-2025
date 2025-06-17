@@ -92,7 +92,7 @@ export default function Home() {
             <GrayButton label="about me" />
           </div>
           <div className="flex flex-col px-4 lg:flex-row items-center lg:items-start gap-6 lg:gap-8 py-3 lg:py-6">
-            <div className="flex-1 flex justify-center">
+            <div className="flex-1 flex justify-center lg:mt-8">
               <RectPicture />
             </div>
             <div className="flex-1 flex">
