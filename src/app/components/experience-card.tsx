@@ -63,7 +63,7 @@ export default function ExperienceCard() {
           className="flex flex-col lg:flex-row justify-between items-center py-6 lg:py-12 px-2 sm:px-4 lg:px-8 lg:gap-8 bg-white dark:bg-black shadow-md dark:shadow-custom-gray w-[90%] lg:w-[55%] rounded-lg"
         >
           <div className="lg:w-72 lg:p-2">
-            <Image
+            <img
               src={experience.image}
               alt="Rectangle image with diagonal offset"
               width={80}

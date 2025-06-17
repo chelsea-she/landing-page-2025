@@ -8,7 +8,7 @@ export default function RectPicture() {
 
       {/* Main square image */}
       <div className="relative w-75 h-100 shadow-xl dark:shadow-custom-gray overflow-hidden transform translate-x-4">
-        <Image
+        <img
           src="/assets/full-body.jpeg"
           alt="Rectangle image with diagonal offset"
           width={256}

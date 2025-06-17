@@ -61,7 +61,7 @@ export default function ProjectCard() {
           {/* py-6 lg:py-12 px-2 sm:px-4 lg:px-8 lg:gap-8 */}
           <div className="basis-1/2 flex items-center justify-center h-full bg-app-gray-50 py-6 lg:py-12 rounded-t-lg">
             <a className="flex items-center justify-center" href={project.link}>
-              <Image
+              <img
                 src={project.image}
                 alt={project.name + " image"}
                 width={500}

@@ -85,7 +85,7 @@ export default function SkillsSection() {
                 className="flex flex-col items-center justify-center gap-1 sm:gap-2 md:gap-3 p-2 sm:p-3 md:p-4 rounded-lg hover:bg-app-gray-50 transition-colors duration-200"
               >
                 <div className="relative w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 flex items-center justify-center">
-                  <Image
+                  <img
                     src={skill.logo || "/placeholder.svg"}
                     alt={skill.alt}
                     width={96}

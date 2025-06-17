@@ -8,7 +8,7 @@ export default function Picture() {
 
       {/* Main square image */}
       <div className="relative w-64 h-64 shadow-xl dark:shadow-custom-gray overflow-hidden">
-        <Image
+        <img
           src="/assets/profile-pic.png"
           alt="Square image with diagonal offset"
           width={256}

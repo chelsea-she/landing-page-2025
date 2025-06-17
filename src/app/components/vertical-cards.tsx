@@ -143,10 +143,9 @@ export default function VerticalCards() {
             >
               <CardContent className="p-0 m-0">
                 <div className="relative h-48 w-full overflow-hidden rounded-t-lg">
-                  <Image
+                  <img
                     src={card.image || "/placeholder.svg"}
                     alt={card.title}
-                    fill
                     className="object-cover"
                   />
                 </div>
