@@ -10,7 +10,7 @@ export default function ProjectCard() {
       aims to use reseach proven countermeasures against misinformation: accuracy nudging, explanatory debunking, and increased awareness.
       Detects misinformation through spoken words or Youtube video links, with explanations. Educates users detection techniques through GPT chatbot.
       Planning to deploy in App Store by end of summer.`,
-      image: "/assets/instaVerify.png",
+      image: "/landing-page-2025/assets/instaVerify.png",
       skills: [
         "Swift",
         "XCode",
@@ -27,7 +27,7 @@ export default function ProjectCard() {
       Automated push notifications using Firebase Cloud Functions (JS) to manage FCM tokens and integrate with APNS, ensuring  
       notifications based on Realtime Database events. Implemented secure user authentication with FirebaseAuth, while automating 
       mass user creation from CSV uploads to Firestore.`,
-      image: "/assets/shsConnect.png",
+      image: "/landing-page-2025/assets/shsConnect.png",
       skills: [
         "Swift",
         "XCode",
@@ -45,7 +45,7 @@ export default function ProjectCard() {
       description: `Published a research paper on a long text, explanatory, state of the art (SOTA) performance fake news detector. 
       Compared differences between SOTA fake news detector performances trained with long news article texts rather than short twitter texts.
       Worked alongside Inspirit AI's Fellowship Research Program mentor Clayton Greenberg.`,
-      image: "/assets/inspiritAIResearch.png",
+      image: "/landing-page-2025/assets/inspiritAIResearch.png",
       skills: ["Python", "Google Colab", "NLP", "ML/AI", "Kaggle"],
       link: "https://www.jsr.org/hs/index.php/path/article/view/5505",
     },

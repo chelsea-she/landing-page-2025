@@ -10,7 +10,7 @@ export default function ExperienceCard() {
         `Researched intersectionalities of human-computer interaction, impact of LLMs and generative AI, and website development`,
       ],
       date: "June 2025 - Present",
-      image: "/assets/cis.png",
+      image: "/landing-page-2025/assets/cis.png",
     },
     {
       position: "Software Developer",
@@ -20,7 +20,7 @@ export default function ExperienceCard() {
         `Networked with backend fuctionalities like Supabase for data management and Zod for schema validation and type safety`,
       ],
       date: "Feb 2025 - Present",
-      image: "/assets/dti.png",
+      image: "/landing-page-2025/assets/dti.png",
     },
     {
       position: "Developer Fellow",
@@ -29,7 +29,7 @@ export default function ExperienceCard() {
         "Full stack Swift developer on a team that jump started an iOS mobile app called InstaVerify, which detects misinformation with research proven human-centered countermeasures",
       ],
       date: "Jun 2024 - Aug 2024",
-      image: "/assets/headstarter.jpeg",
+      image: "/landing-page-2025/assets/headstarter.jpeg",
     },
     {
       position: "Research Assistant",
@@ -39,7 +39,7 @@ export default function ExperienceCard() {
         `Under the assistance of Emory professor Prof. Shu, currently preparing for publication by end of summer`,
       ],
       date: "Jun 2023 - Present",
-      image: "/assets/emory.png",
+      image: "/landing-page-2025/assets/emory.png",
     },
     {
       position: "Lead Instructor",
@@ -52,7 +52,7 @@ export default function ExperienceCard() {
               Scratch Jr. (block coding), Code Spark, circuits`,
       ],
       date: "Oct 2021- May 2024",
-      image: "/assets/code-ninjas.png",
+      image: "/landing-page-2025/assets/code-ninjas.png",
     },
   ];
   return (

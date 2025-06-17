@@ -4,62 +4,62 @@ import GrayButton from "./gray-button";
 const skills = [
   {
     name: "Python",
-    logo: "/assets/logo/python-logo.png",
+    logo: "/landing-page-2025/assets/logo/python-logo.png",
     alt: "Python logo",
   },
   {
     name: "Java",
-    logo: "/assets/logo/java-logo.png",
+    logo: "/landing-page-2025/assets/logo/java-logo.png",
     alt: "Java logo",
   },
   {
     name: "HTML/CSS/JS",
-    logo: "/assets/logo/html-logo.png",
+    logo: "/landing-page-2025/assets/logo/html-logo.png",
     alt: "HTML/CSS/JS logo",
   },
   {
     name: "NextJS",
-    logo: "/assets/logo/nextjs-logo.png",
+    logo: "/landing-page-2025/assets/logo/nextjs-logo.png",
     alt: "NextJS logo",
   },
   {
     name: "Swift",
-    logo: "/assets/logo/swift-logo.png",
+    logo: "/landing-page-2025/assets/logo/swift-logo.png",
     alt: "Swift logo",
   },
   {
     name: "Tailwind",
-    logo: "/assets/logo/tailwind-logo.png",
+    logo: "/landing-page-2025/assets/logo/tailwind-logo.png",
     alt: "Tailwind logo",
   },
   {
     name: "TypeScript",
-    logo: "/assets/logo/ts-logo.png",
+    logo: "/landing-page-2025/assets/logo/ts-logo.png",
     alt: "TypeScript logo",
   },
   {
     name: "Git",
-    logo: "/assets/logo/git-logo.png",
+    logo: "/landing-page-2025/assets/logo/git-logo.png",
     alt: "Git logo",
   },
   {
     name: "Firebase",
-    logo: "/assets/logo/firebase-logo.png",
+    logo: "/landing-page-2025/assets/logo/firebase-logo.png",
     alt: "Firebase logo",
   },
   {
     name: "Kotlin",
-    logo: "/assets/logo/kotlin-logo.png",
+    logo: "/landing-page-2025/assets/logo/kotlin-logo.png",
     alt: "Kotlin logo",
   },
   {
     name: "SQL",
-    logo: "/assets/logo/sql-logo.png",
+    logo: "/landing-page-2025/assets/logo/sql-logo.png",
     alt: "SQL logo",
   },
   {
     name: "Apple Developer",
-    logo: "/assets/logo/apple-logo.png",
+    logo: "/landing-page-2025/assets/logo/apple-logo.png",
     alt: "Apple logo",
   },
 ];

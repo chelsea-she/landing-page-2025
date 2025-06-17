@@ -18,7 +18,7 @@ interface CardData {
 const cardData: CardData[] = [
   {
     id: 1,
-    image: "/assets/appDevHackChallenge.png",
+    image: "/landing-page-2025/assets/appDevHackChallenge.png",
     title: "Cornell AppDev Hack Challenge",
     description: `Developed a lost and found app named Found that aims to help Cornellians find their lost items throughout campus.
     Implemented backend with FirebaseAuth and SQL data storage.`,
@@ -27,7 +27,7 @@ const cardData: CardData[] = [
   },
   {
     id: 2,
-    image: "/assets/shsHacks.png",
+    image: "/landing-page-2025/assets/shsHacks.png",
     title: "Highschool Wellness Hackathon",
     description: `Created a wellness website including linked spotify playlists, meditation timers, and breathing countdowns. 
      Led a website development workshop teaching Javascript.`,
@@ -36,7 +36,7 @@ const cardData: CardData[] = [
   },
   {
     id: 3,
-    image: "/assets/kodeWithKlossy.png",
+    image: "/landing-page-2025/assets/kodeWithKlossy.png",
     title: "KodeWithKlossy Website Challenge",
     description:
       "Made a website teaching fast fashion called CuttOff. Included an interactive map of thrift shops in different cities, informative slideshows, and a click through list of stores to avoid.",
@@ -45,7 +45,7 @@ const cardData: CardData[] = [
   },
   {
     id: 4,
-    image: "/assets/InspiritAIScholar.png",
+    image: "/landing-page-2025/assets/InspiritAIScholar.png",
     title: "Inspirit AI Scholar",
     description: `Learned how to develop ML models including computer vision, NLP, and neural networks.
       Analyzed sentiment on Twitter posts using NLP to determine sentiments on a particular company.`,
@@ -54,7 +54,7 @@ const cardData: CardData[] = [
   },
   {
     id: 5,
-    image: "/assets/artPortfolio.png",
+    image: "/landing-page-2025/assets/artPortfolio.png",
     title: "Highschool Art Portfolio",
     description:
       "Learned how to self express individual ideas/beliefs, emotions, and experiences in the form of art in many different styles. This included Chinese painting, acrylic painting, oil painting, and watercolor.",
