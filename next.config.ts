@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/github.com/chelsea-she/landing-page-2025.git",
-  assetPrefix: "/github.com/chelsea-she/landing-page-2025.git",
+  basePath: "/landing-page-2025",
+  assetPrefix: "/landing-page-2025",
   images: {
     unoptimized: true,
   },
