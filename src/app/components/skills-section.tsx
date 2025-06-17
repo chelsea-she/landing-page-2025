@@ -98,7 +98,7 @@ export default function SkillsSection() {
               >
                 <div className="relative w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 flex items-center justify-center">
                   <img
-                    src={skill.tempLogo || "/placeholder.svg"}
+                    src={skill.logo || "/placeholder.svg"}
                     alt={skill.alt}
                     width={96}
                     height={96}

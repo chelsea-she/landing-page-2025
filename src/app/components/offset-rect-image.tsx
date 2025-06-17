@@ -9,7 +9,7 @@ export default function RectPicture() {
       {/* Main square image */}
       <div className="relative w-72 h-96 shadow-xl dark:shadow-custom-gray overflow-hidden">
         <img
-          src="/assets/full-body.jpeg"
+          src="/landing-page-2025/assets/full-body.jpeg"
           alt="Square image with diagonal offset"
           width={256}
           height={256}
