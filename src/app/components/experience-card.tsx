@@ -70,7 +70,7 @@ export default function ExperienceCard() {
           <div className="w-24 py-4 lg:w-72 lg:p-2">
             <img
               src={experience.image}
-              alt="Rectangle image with diagonal offset"
+              alt="Experience Photo"
               width={80}
               height={80}
               className="max-w-[80%] max-h-full object-contain rounded-lg"

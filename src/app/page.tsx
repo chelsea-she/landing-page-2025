@@ -255,6 +255,20 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <footer className="w-full flex items-center justify-center py-4 bg-app-gray-50">
+        <p>
+          <a href="https://github.com/chelsea-she/landing-page-2025">
+            <u>coded</u>
+          </a>{" "}
+          with 🩵 by Chelsea She and
+          <a href="https://www.figma.com/community/file/1262992249991763120">
+            {" "}
+            <u>design</u>
+          </a>{" "}
+          inspired by Sagar Shah
+        </p>
+      </footer>
     </div>
   );
 }
