@@ -58,7 +58,7 @@ export default function ProjectCard() {
       {projects.map((project, index) => (
         <div
           key={index}
-          className={`flex flex-col lg:flex-row justify-between items-center bg-foreground shadow-md dark:shadow-custom-gray w-[90%] lg:w-[80%] rounded-lg
+          className={`flex flex-col lg:flex-row justify-between items-center bg-foreground shadow-md dark:shadow-custom-gray w-[90%] lg:w-[80%] rounded-lg py-4
             ${index % 2 === 1 ? "lg:flex-row-reverse" : ""}`}
         >
           {/* py-6 lg:py-12 px-2 sm:px-4 lg:px-8 lg:gap-8 */}

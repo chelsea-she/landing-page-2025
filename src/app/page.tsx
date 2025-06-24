@@ -197,13 +197,13 @@ export default function Home() {
           <div className="flex justify-center mb-2 lg:mb-4">
             <GrayButton label="get in touch" />
           </div>
-          <p className="text-center mb-4 md:mb-8">
+          <p className="text-center mb-4 md:mb-8 text-sm lg:text-md px-2">
             Feel free to reach out to me if you're looking for a developer, have
             a query, or simply want to connect :)
           </p>
-          <div className="flex flex-col justify-center items-center text-foreground gap-4 md:gap-8">
+          <div className="flex flex-col justify-center items-center text-foreground gap-2 lg:gap-4 md:gap-8">
             <div className="flex flex-row items-center">
-              <h1 className="text-xl px-1">cms556@cornell.edu</h1>
+              <h1 className="text-md lg:text-xl px-1">cms556@cornell.edu</h1>
               <span className="inline-block rotate-90 w-6 h-0.5 bg-foreground rounded-full align-middle" />
               <span
                 onMouseEnter={() => setMailHovered(true)}
@@ -222,7 +222,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-row items-center">
-              <h1 className="text-xl px-1">312-622-5135</h1>
+              <h1 className="text-md lg:text-xl px-1">312-622-5135</h1>
               <span className="inline-block rotate-90 w-6 h-0.5 bg-foreground rounded-full align-middle" />
               <span
                 onMouseEnter={() => setPhoneHovered(true)}
@@ -240,7 +240,7 @@ export default function Home() {
               <CopyButton value="phone" />
             </div>
 
-            <div className="flex flex-row items-center gap-3 lg:-mt-4 sm:gap-6 lg:justify-start">
+            <div className="flex flex-row items-center text-sm lg:text-md px-2 gap-3 sm:gap-6 lg:justify-start">
               <p>You may also find me on these platforms!</p>
               <a
                 href="https://www.linkedin.com/in/chelsea-she-44344a247/"
@@ -256,7 +256,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="w-full flex items-center justify-center py-4 bg-app-gray-50">
+      <footer className="w-full flex items-center justify-center py-4 bg-app-gray-50 text-[10px] md:text-[16px] ">
         <p>
           <a href="https://github.com/chelsea-she/landing-page-2025">
             <u>coded</u>

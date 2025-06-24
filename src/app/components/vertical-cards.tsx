@@ -74,6 +74,7 @@ export default function VerticalCards() {
   const [canScrollRight, setCanScrollRight] = useState(true);
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const [activeIndex, setActiveIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(true);
 
   const checkScrollButtons = () => {
     if (scrollContainerRef.current) {
@@ -111,16 +112,23 @@ export default function VerticalCards() {
     }
   };
 
+  const visibleDots = isMobile
+    ? cardData
+    : cardData.slice(0, Math.ceil(cardData.length / 2));
+
   useEffect(() => {
     checkScrollButtons();
-    const handleResize = () => checkScrollButtons();
+    const handleResize = () => {
+      checkScrollButtons();
+      setIsMobile(window.innerWidth < 768);
+    };
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   return (
     <div className="w-full max-w-7xl mx-auto p-4">
-      <div className="w-full flex flex-row justify-center items-center gap-6 lg:gap-12">
+      <div className="w-full flex flex-row justify-center items-center gap-4 lg:gap-12">
         <Button
           variant="outline"
           size="icon"
@@ -198,7 +206,7 @@ export default function VerticalCards() {
 
       {/* Mobile-friendly scroll indicator */}
       <div className="flex justify-center mt-4 gap-2">
-        {cardData.map((_, index) => (
+        {visibleDots.map((_, index) => (
           <div
             key={index}
             className={`w-2 h-2 rounded-full transition-colors duration-300 ${
