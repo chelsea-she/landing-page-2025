@@ -73,8 +73,8 @@ export default function ProjectCard() {
               />
             </a>
           </div>
-          <div className="basis-1/2 flex flex-col gap-3 px-8 lg:py-12">
-            <p className="text-center lg:text-left text-lg font-medium text-black">
+          <div className="basis-1/2 flex flex-col gap-3 px-8 lg:py-12 pt-6">
+            <p className="text-center lg:text-left text-lg font-medium">
               {project.name}
             </p>
             <ul>{project.description}</ul>
