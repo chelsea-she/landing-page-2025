@@ -77,7 +77,7 @@ export function Navbar() {
               className="p-2 rounded hover:bg-app-gray-100 transition"
             >
               <a
-                href="/landing-page-2025/chelsea_resume.pdf"
+                href="/landing-page-2025/Chelsea_Fall_2025_Resume.pdf"
                 download="Chelsea_She_Resume_2025.pdf"
               >
                 download resume
@@ -165,7 +165,7 @@ export function Navbar() {
                 <div className="flex items-center justify-center">
                   <Button asChild className="p-2 hover:bg-app-gray-100">
                     <a
-                      href="/landing-page-2025/chelsea_resume.pdf"
+                      href="/landing-page-2025/Chelsea_Fall_2025_Resume.pdf"
                       download="Chelsea_She_Resume_2025.pdf"
                       rel="noopener noreferrer"
                     >

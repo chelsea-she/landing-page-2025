@@ -5,11 +5,29 @@ import GrayButton from "./gray-button";
 export default function ProjectCard() {
   const projects = [
     {
+      name: "CCI Rideshare",
+      description: `Developed a ride scheduling and assignment system for Calvary Chapel at Ithaca, my local church of 100+ members, automating message
+      delivery for ride coordination (email and SMS text message). Built a multi-user web interface with role-based access control 
+      (rider, driver, admin) and secure authentication.  Designed and developed an interactive drag-and-drop dashboard to streamline 
+      ride organization and user assignments.`,
+      image: "/landing-page-2025/assets/cci-rideshare.png",
+      tempImage: "assets/cci-rideshare.png",
+      skills: [
+        "NextJS",
+        "TailwindCSS",
+        "Firebase",
+        "Google Cloud Functions",
+        "GitHub",
+        "ShadCN/v0",
+      ],
+      link: "https://rides.calvarychapelithaca.org/",
+    },
+    {
       name: "instaVerify",
       description: `Developed an iOS mobile app called InstaVerify, which detects 	
       aims to use reseach proven countermeasures against misinformation: accuracy nudging, explanatory debunking, and increased awareness.
       Detects misinformation through spoken words or Youtube video links, with explanations. Educates users detection techniques through GPT chatbot.
-      Planning to deploy in App Store by end of summer.`,
+      Planning to deploy in App Store by the end of year.`,
       image: "/landing-page-2025/assets/instaVerify.png",
       tempImage: "/assets/instaVerify.png",
       skills: [
