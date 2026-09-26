@@ -1,8 +1,7 @@
 "use client";
-import { useState } from "react";
 
 import { Navbar } from "@/app/components/navbar";
-import { Phone, PhoneCall, MapPin, Mail, MailOpen } from "lucide-react";
+import { MapPin } from "lucide-react";
 import Picture from "@/app/components/offset-square-image";
 
 import { IoLogoLinkedin } from "react-icons/io5";
@@ -12,13 +11,9 @@ import SkillsSection from "./components/skills-section";
 import ExperienceCard from "./components/experience-card";
 import ProjectCard from "./components/project-card";
 import GrayButton from "./components/gray-button";
-import CopyButton from "./components/copy-button";
 import VerticalCards from "./components/vertical-cards";
 
 export default function Home() {
-  const [mailHovered, setMailHovered] = useState(false);
-  const [phoneHovered, setPhoneHovered] = useState(false);
-
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
@@ -38,10 +33,11 @@ export default function Home() {
             </h1>
             <p className="text-base sm:text-lg text-app-gray-500  mb-6 lg:mb-8 leading-relaxed">
               I am currently student at Cornell University with a double major
-              in Computer Science and Cognitive Science. I have experience in
-              mobile app development, website development, AI/ML and NLP
-              research. I am actively looking for any opportunities in computer
-              programming and software engineering.
+              in Computer Science and Cognitive Science, minoring in Artificial
+              Intelligence. I have experience in systems software, mobile app
+              development, website development, AI/ML and NLP research. I am
+              actively looking for a builder community or any opportunities in
+              software engineering.
             </p>
             <div className="flex flex-row gap-3 sm:gap-6 lg:justify-start">
               <div className="flex items-center lg:justify-start gap-2">
@@ -101,8 +97,8 @@ export default function Home() {
                   curious about me?
                 </h2>
                 <p className="mt-3">
-                  I am a passionate, self motivated full-stack software
-                  developer. I love getting my hands on new projects to build.
+                  I'm very passionate and self motivated in full-stack software
+                  engineering. I love getting my hands on new projects to build!
                   Either it be website development with Next.js, or a mobile app
                   with Swift or Kotlin, I am always fascinated in the creation
                   process of creating truly impactful and human-centered
@@ -111,8 +107,8 @@ export default function Home() {
                 <p className="mt-2">
                   I am very much a progressive thinker and enjoy working on
                   products end to end, from ideation all the way to development.
-                  However, I also have experience working on large code-bases,
-                  and collaborating with teams towards a collective goal.
+                  I also have experience working on large code-bases, and
+                  collaborating with teams towards a collective goal.
                 </p>
                 <p className="mt-2">
                   I love to explore the intersections of technology and human
@@ -123,9 +119,9 @@ export default function Home() {
                 </p>
                 <p className="mt-2">
                   Whenever I am not coding, you can find me playing any racket
-                  related sport (tennis and pickelball) or cooking/baking. I am
-                  trying to get into running, aspiring to run a half-marathon
-                  one day :)
+                  related sport (tennis and pickelball), crocheting,
+                  cooking/baking. I am trying to get into running, aspiring to
+                  run a half-marathon one day :)
                 </p>
               </div>
             </div>
@@ -189,85 +185,134 @@ export default function Home() {
         </div>
       </section>
 
-      <section
+      <footer
         id="contact"
-        className="py-8 sm:py-12 md:py-16 lg:py-24 bg-foreground"
+        className="w-full scroll-mt-24 border-t border-gray-800 bg-gradient-to-b from-black to-gray-950 text-white"
       >
-        <div className="text-app-gray-500 ">
-          <div className="flex justify-center mb-2 lg:mb-4">
-            <GrayButton label="get in touch" />
-          </div>
-          <p className="text-center mb-4 md:mb-8 text-sm lg:text-md px-2">
-            Feel free to reach out to me if you're looking for a developer, have
-            a query, or simply want to connect :)
-          </p>
-          <div className="flex flex-col justify-center items-center text-foreground gap-2 lg:gap-4 md:gap-8">
-            <div className="flex flex-row items-center">
-              <h1 className="text-md lg:text-xl px-1">cms556@cornell.edu</h1>
-              <span className="inline-block rotate-90 w-6 h-0.5 bg-foreground rounded-full align-middle" />
-              <span
-                onMouseEnter={() => setMailHovered(true)}
-                onMouseLeave={() => setMailHovered(false)}
-                className="inline-flex"
-              >
-                {mailHovered ? (
-                  <a href={`mailto:cms556@cornell.edu`}>
-                    <MailOpen className="h-7 w-7 md:h-9 md:w-9 p-2 rounded-md cursor-pointer hover:bg-accent"></MailOpen>
-                  </a>
-                ) : (
-                  <Mail className="h-7 w-7 md:h-9 md:w-9 p-2 rounded-md cursor-pointer hover:bg-accent" />
-                )}
-              </span>
-              <CopyButton value="email" />
-            </div>
-
-            <div className="flex flex-row items-center">
-              <h1 className="text-md lg:text-xl px-1">312-622-5135</h1>
-              <span className="inline-block rotate-90 w-6 h-0.5 bg-foreground rounded-full align-middle" />
-              <span
-                onMouseEnter={() => setPhoneHovered(true)}
-                onMouseLeave={() => setPhoneHovered(false)}
-                className="inline-flex"
-              >
-                {phoneHovered ? (
-                  <a href={`sms:3126225135`}>
-                    <PhoneCall className="h-7 w-7 md:h-9 md:w-9 p-2 rounded-md cursor-pointer hover:bg-accent" />
-                  </a>
-                ) : (
-                  <Phone className="h-7 w-7 md:h-9 md:w-9 p-2 rounded-md cursor-pointer hover:bg-accent" />
-                )}
-              </span>
-              <CopyButton value="phone" />
-            </div>
-
-            <div className="flex flex-row items-center text-sm lg:text-md px-2 gap-3 sm:gap-6 lg:justify-start">
-              <p>You may also find me on these platforms!</p>
+        <div className="mx-auto max-w-7xl px-6 py-10 sm:px-8">
+          <div className="flex flex-col gap-8">
+            <div className="flex flex-col items-start justify-between gap-5 md:flex-row md:items-center">
               <a
-                href="https://www.linkedin.com/in/chelsea-she-44344a247/"
-                target="_blank"
+                href="#intro"
+                className="flex items-center gap-4 rounded focus-visible:outline focus-visible:outline-2 focus-visible:outline-sky-300"
               >
-                <IoLogoLinkedin />
+                <img
+                  src="/chelsea-she-landing-page/assets/CS.png"
+                  width={50}
+                  height={50}
+                />
+                <div>
+                  <p className="text-base font-semibold tracking-tight">
+                    Chelsea She
+                  </p>
+                  <p className="mt-1 text-sm text-gray-400">
+                    Computer Science &amp; Cognitive Science | AI Minor ·
+                    Cornell University
+                  </p>
+                </div>
               </a>
-              <a href="https://github.com/chelsea-she" target="_blank">
-                <FiGithub />
+              <a
+                href="mailto:cms556@cornell.edu"
+                className="inline-flex items-center rounded-md border border-sky-500/50 bg-sky-950/25 px-4 py-2 text-sm font-medium text-sky-200 transition-colors hover:border-sky-400 hover:bg-sky-900/35 hover:text-white"
+              >
+                Let’s connect
               </a>
             </div>
+
+            <div className="grid grid-cols-1 gap-8 border-t border-gray-800 pt-8 md:grid-cols-3">
+              <nav aria-label="Footer navigation">
+                <h2 className="mb-3 text-xs font-semibold uppercase tracking-[0.14em] text-gray-400">
+                  Explore
+                </h2>
+                <ul className="space-y-2 text-sm text-gray-300">
+                  {[
+                    ["About", "#about"],
+                    ["Skills", "#skills"],
+                    ["Experience", "#work"],
+                    ["Projects", "#projects"],
+                  ].map(([label, href]) => (
+                    <li key={href}>
+                      <a
+                        href={href}
+                        className="transition-colors hover:text-white focus-visible:underline"
+                      >
+                        {label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+
+              <div>
+                <h2 className="mb-3 text-xs font-semibold uppercase tracking-[0.14em] text-gray-400">
+                  Find me online
+                </h2>
+                <ul className="space-y-2 text-sm text-gray-300">
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/chelsea-she-44344a247/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 transition-colors hover:text-white focus-visible:underline"
+                    >
+                      <IoLogoLinkedin aria-hidden="true" /> LinkedIn
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/chelsea-she"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 transition-colors hover:text-white focus-visible:underline"
+                    >
+                      <FiGithub aria-hidden="true" /> GitHub
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <h2 className="mb-3 text-xs font-semibold uppercase tracking-[0.14em] text-gray-400">
+                  Contact
+                </h2>
+                <ul className="space-y-2 text-sm text-gray-300">
+                  <li>
+                    <a
+                      href="mailto:cms556@cornell.edu"
+                      className="break-words transition-colors hover:text-white focus-visible:underline"
+                    >
+                      cms556@cornell.edu
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="tel:+13126225135"
+                      className="transition-colors hover:text-white focus-visible:underline"
+                    >
+                      312-622-5135
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <p className="border-t border-gray-800 pt-4 text-center text-xs leading-relaxed text-gray-400">
+              <a
+                href="https://github.com/chelsea-she/chelsea-she-landing-page"
+                className="underline underline-offset-4 hover:text-gray-200"
+              >
+                Built with 🩵 from Chelsea
+              </a>
+              {" · "}Design inspired by{" "}
+              <a
+                href="https://www.figma.com/community/file/1262992249991763120"
+                className="underline underline-offset-4 hover:text-gray-200"
+              >
+                Sagar Shah
+              </a>
+            </p>
           </div>
         </div>
-      </section>
-
-      <footer className="w-full flex items-center justify-center py-4 bg-app-gray-50 text-[10px] md:text-[16px] ">
-        <p>
-          <a href="https://github.com/chelsea-she/chelsea-she-landing-page">
-            <u>coded</u>
-          </a>{" "}
-          with 🩵 by Chelsea She and
-          <a href="https://www.figma.com/community/file/1262992249991763120">
-            {" "}
-            <u>design</u>
-          </a>{" "}
-          inspired by Sagar Shah
-        </p>
       </footer>
     </div>
   );
