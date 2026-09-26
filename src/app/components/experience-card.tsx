@@ -223,7 +223,7 @@ export default function ExperienceCard() {
   const experiences: Experience[] = [
     {
       organization: "Apple",
-      image: "/chelsea-she-landing-page/assets/apple.png",
+      image: "/landing-page-2025/assets/apple.png",
       positions: [
         {
           position: "Software Engineer Intern",
@@ -232,13 +232,13 @@ export default function ExperienceCard() {
             `Engineered an end-to-end concurrent audio-synthesis pipeline with multi-speaker TTS models (Gemini TTS), pydub, DSP silence detection, and timestamp alignment to sync a live transcript to playback`,
             ` Deployed a cross-platform iOS app and mobile-web support with internal authentication, Keychain & Passkey, iOS accessibility zoom, haptics, liquid glass, sidebar with gesture recognition, and native context menus and alerts`,
           ],
-          date: "Feb 2025 - Present",
+          date: "May 2026 - Present",
         },
       ],
     },
     {
       organization: "Cornell DTI Project Team",
-      image: "/chelsea-she-landing-page/assets/dti.png",
+      image: "/landing-page-2025/assets/dti.png",
       positions: [
         {
           position: "Software Developer",
@@ -257,7 +257,7 @@ export default function ExperienceCard() {
     },
     {
       organization: "Cornell ACSU",
-      image: "/chelsea-she-landing-page/assets/acsu.png",
+      image: "/landing-page-2025/assets/acsu.png",
       positions: [
         {
           position: "Website Developer Lead",
@@ -281,7 +281,7 @@ export default function ExperienceCard() {
     },
     {
       organization: "Cornell Bowers CIS",
-      image: "/chelsea-she-landing-page/assets/cis.png",
+      image: "/landing-page-2025/assets/cis.png",
       positions: [
         {
           position: "Research Assistant",
@@ -305,7 +305,7 @@ export default function ExperienceCard() {
     },
     {
       organization: "Headstarter",
-      image: "/chelsea-she-landing-page/assets/headstarter.jpeg",
+      image: "/landing-page-2025/assets/headstarter.jpeg",
       positions: [
         {
           position: "Developer Fellow",
@@ -319,7 +319,7 @@ export default function ExperienceCard() {
     },
     // {
     //   organization: "Emory University",
-    //   image: "/chelsea-she-landing-page/assets/emory.png",
+    //   image: "/landing-page-2025/assets/emory.png",
     //   positions: [
     //     {
     //       position: "Research Assistant",
@@ -334,7 +334,7 @@ export default function ExperienceCard() {
     // },
     {
       organization: "Code Ninjas",
-      image: "/chelsea-she-landing-page/assets/code-ninjas.png",
+      image: "/landing-page-2025/assets/code-ninjas.png",
       positions: [
         {
           position: "Lead Instructor",

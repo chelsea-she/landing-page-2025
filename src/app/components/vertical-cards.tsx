@@ -19,7 +19,7 @@ interface CardData {
 const cardData: CardData[] = [
   {
     id: 1,
-    image: "/chelsea-she-landing-page/assets/appDevHackChallenge.png",
+    image: "/landing-page-2025/assets/appDevHackChallenge.png",
     tempImage: "/assets/appDevHackChallenge.png",
     title: "Cornell AppDev Hack Challenge",
     description: `Developed a lost and found app named Found that aims to help Cornellians find their lost items throughout campus.
@@ -29,7 +29,7 @@ const cardData: CardData[] = [
   },
   {
     id: 2,
-    image: "/chelsea-she-landing-page/assets/shsHacks.png",
+    image: "/landing-page-2025/assets/shsHacks.png",
     tempImage: "/assets/shsHacks.png",
     title: "Highschool Wellness Hackathon",
     description: `Created a wellness website including linked spotify playlists, meditation timers, and breathing countdowns. 
@@ -39,7 +39,7 @@ const cardData: CardData[] = [
   },
   {
     id: 3,
-    image: "/chelsea-she-landing-page/assets/kodeWithKlossy.png",
+    image: "/landing-page-2025/assets/kodeWithKlossy.png",
     tempImage: "/assets/kodeWithKlossy.png",
     title: "KodeWithKlossy Website Challenge",
     description:
@@ -49,7 +49,7 @@ const cardData: CardData[] = [
   },
   {
     id: 4,
-    image: "/chelsea-she-landing-page/assets/InspiritAIScholar.png",
+    image: "/landing-page-2025/assets/InspiritAIScholar.png",
     tempImage: "/assets/InspiritAIScholar.png",
     title: "Inspirit AI Scholar",
     description: `Learned how to develop ML models including computer vision, NLP, and neural networks.
@@ -59,7 +59,7 @@ const cardData: CardData[] = [
   },
   {
     id: 5,
-    image: "/chelsea-she-landing-page/assets/artPortfolio.png",
+    image: "/landing-page-2025/assets/artPortfolio.png",
     tempImage: "/assets/artPortfolio.png",
     title: "Highschool Art Portfolio",
     description:

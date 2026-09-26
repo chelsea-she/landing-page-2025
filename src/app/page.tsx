@@ -197,7 +197,7 @@ export default function Home() {
                 className="flex items-center gap-4 rounded focus-visible:outline focus-visible:outline-2 focus-visible:outline-sky-300"
               >
                 <img
-                  src="/chelsea-she-landing-page/assets/CS.png"
+                  src="/landing-page-2025/assets/CS.png"
                   width={50}
                   height={50}
                 />
@@ -298,7 +298,7 @@ export default function Home() {
 
             <p className="border-t border-gray-800 pt-4 text-center text-xs leading-relaxed text-gray-400">
               <a
-                href="https://github.com/chelsea-she/chelsea-she-landing-page"
+                href="https://github.com/chelsea-she/landing-page-2025"
                 className="underline underline-offset-4 hover:text-gray-200"
               >
                 Built with 🩵 from Chelsea
