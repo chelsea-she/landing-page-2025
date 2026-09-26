@@ -10,7 +10,7 @@ export default function ExperienceCard() {
         `Researched intersectionalities of human-computer interaction, impact of LLMs and generative AI, and website development`,
       ],
       date: "June 2025 - Present",
-      image: "/landing-page-2025/assets/cis.png",
+      image: "/chelsea-she-landing-page/assets/cis.png",
       tempImage: "/assets/cis.png",
     },
     {
@@ -21,7 +21,7 @@ export default function ExperienceCard() {
         `Networked with backend fuctionalities like Supabase for data management and Zod for schema validation and type safety`,
       ],
       date: "Feb 2025 - Present",
-      image: "/landing-page-2025/assets/dti.png",
+      image: "/chelsea-she-landing-page/assets/dti.png",
       tempImage: "/assets/dti.png",
     },
     {
@@ -31,7 +31,7 @@ export default function ExperienceCard() {
         "Full stack Swift developer on a team that jump started an iOS mobile app called InstaVerify, which detects misinformation with research proven human-centered countermeasures",
       ],
       date: "Jun 2024 - Aug 2024",
-      image: "/landing-page-2025/assets/headstarter.jpeg",
+      image: "/chelsea-she-landing-page/assets/headstarter.jpeg",
       tempImage: "/assets/headstarter.jpeg",
     },
     {
@@ -42,7 +42,7 @@ export default function ExperienceCard() {
         `Under the assistance of Emory professor Prof. Shu, currently preparing for publication by end of summer`,
       ],
       date: "Jun 2023 - Present",
-      image: "/landing-page-2025/assets/emory.png",
+      image: "/chelsea-she-landing-page/assets/emory.png",
       tempImage: "/assets/emory.png",
     },
     {
@@ -56,7 +56,7 @@ export default function ExperienceCard() {
               Scratch Jr. (block coding), Code Spark, circuits`,
       ],
       date: "Oct 2021- May 2024",
-      image: "/landing-page-2025/assets/code-ninjas.png",
+      image: "/chelsea-she-landing-page/assets/code-ninjas.png",
       tempImage: "/assets/code-ninjas.png",
     },
   ];

@@ -258,7 +258,7 @@ export default function Home() {
 
       <footer className="w-full flex items-center justify-center py-4 bg-app-gray-50 text-[10px] md:text-[16px] ">
         <p>
-          <a href="https://github.com/chelsea-she/landing-page-2025">
+          <a href="https://github.com/chelsea-she/chelsea-she-landing-page">
             <u>coded</u>
           </a>{" "}
           with 🩵 by Chelsea She and
